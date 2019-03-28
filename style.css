@@ -1,0 +1,17 @@
+body {
+	background: navy;
+}
+
+/* ----- Navigation styles ----- */
+
+nav {
+	background: white;
+}
+
+#nav-logo {
+	height: 100%;
+}
+
+.navbar-brand {
+	height: 30vh;
+}
