@@ -1,12 +1,4 @@
-body {
-	background: navy;
-}
-
-/* ----- Navigation styles ----- */
-
-nav {
-	background: white;
-}
+/* ----- Navigation styles -----*/
 
 #nav-logo {
 	height: 100%;
@@ -14,4 +6,5 @@ nav {
 
 .navbar-brand {
 	height: 30vh;
+	max-height: 140px;
 }
