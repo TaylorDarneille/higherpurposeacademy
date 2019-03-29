@@ -1,10 +1,18 @@
 /* ----- Navigation styles -----*/
-
 #nav-logo {
 	height: 100%;
 }
 
 .navbar-brand {
-	height: 30vh;
+	height: 25vh;
 	max-height: 140px;
+}
+
+/* ----- Hero Image styles -----*/
+.jumbotron {
+	background-image: url('assets/journey-man-1348078-unsplash.jpg');
+	background-image: url('assets/sumeyye-bozkus-1348546-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
 }
