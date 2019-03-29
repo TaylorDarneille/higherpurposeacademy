@@ -11,8 +11,21 @@
 /* ----- Hero Image styles -----*/
 .jumbotron {
 	background-image: url('assets/journey-man-1348078-unsplash.jpg');
-	background-image: url('assets/sumeyye-bozkus-1348546-unsplash.jpg');
-	background-position: center;
+/*	background-image: url('assets/sumeyye-bozkus-1348546-unsplash.jpg');
+*/	background-position: center;
 	background-size: cover;
 	height: 40vh;
+}
+
+/* ----- About Section styles -----*/
+
+#about {
+	text-align: center;
+	line-height: 2.0;
+}
+
+/* ----- Events Section styles -----*/
+
+#events {
+	text-align: center;
 }
