@@ -29,3 +29,11 @@
 #events {
 	text-align: center;
 }
+
+.card {
+	height: 50vh;
+}
+
+img {
+	height: 100%;
+}
