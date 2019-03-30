@@ -37,3 +37,11 @@
 img {
 	height: 100%;
 }
+
+.event-location {
+	font-size: 1.7rem;
+}
+
+.event-date {
+	font-size: 1.3rem;
+}
