@@ -10,11 +10,21 @@
 
 /* ----- Hero Image styles -----*/
 .jumbotron {
-	background-image: url('assets/journey-man-1348078-unsplash.jpg');
-/*	background-image: url('assets/sumeyye-bozkus-1348546-unsplash.jpg');
-*/	background-position: center;
+	background-position: center;
 	background-size: cover;
 	height: 40vh;
+}
+
+.jumbotron-1 {
+	background-image: url('assets/journey-man-1348078-unsplash.jpg');
+}
+
+.jumbotron-2 {
+	background-image: url('assets/sumeyye-bozkus-1348546-unsplash.jpg');
+}
+
+.jumbotron-3 {
+	background-image: url('assets/matt-hardy-562566-unsplash.jpg');
 }
 
 /* ----- About Section styles -----*/
@@ -22,6 +32,9 @@
 #about {
 	text-align: center;
 	line-height: 2.0;
+	font-size: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 /* ----- Events Section styles -----*/
@@ -31,7 +44,7 @@
 }
 
 .card {
-	height: 50vh;
+	height: 70vh;
 	margin: 2vw;
 }
 
@@ -39,8 +52,17 @@
 	padding: 0;
 }
 
-img {
-	height: 100%;
+.frame {
+	position: relative;
+	overflow: hidden;
+	height: 75%;
+}
+
+.card-img {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
 }
 
 .event-location {
@@ -53,5 +75,5 @@ img {
 }
 
 .card-content {
-	margin-top: 10px;
+	margin: 2vh;
 }
