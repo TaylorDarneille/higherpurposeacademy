@@ -1,3 +1,11 @@
+body {
+/*	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lato', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #333333;
+}
+
 /* ----- Navigation styles -----*/
 #nav-logo {
 	height: 100%;
@@ -41,6 +49,8 @@
 
 #events {
 	text-align: center;
+	padding-top: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 .card {
@@ -76,4 +86,26 @@
 
 .card-content {
 	margin: 2vh;
+}
+
+/* ----- Bio Section styles -----*/
+
+.bio-img {
+	width: 100%;
+}
+
+.bio-img-container {
+	padding: 0;
+}
+
+.bio-blurb-container {
+	padding: 6vh 4vw;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.bio-blurb {
+	line-height: 2.0;
 }
