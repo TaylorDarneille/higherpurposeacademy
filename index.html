@@ -64,10 +64,10 @@
 						<img src="https://images.unsplash.com/photo-1510774254984-b615cdeb56ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" alt="Portland" class="card-img-top card-img">					
 					</div>
 					<div class="card-body">
-						<h3 class="card-title card-header">[Reatreat Name]</h3>
+						<h3 class="card-title card-header">[Retreat Name]</h3>
 						<div class="card-content">
 							<p class="event-location">Portland, OR</p>
-							<p class="event-date">[Retreate Date]</p>
+							<p class="event-date">[Retreat Date]</p>
 							<a href="#" class="btn btn-secondary">Learn More</a>
 						</div>
 					</div>
@@ -93,11 +93,13 @@
 
 		<div id="subscribe">
 			<h5>Subscribe to stay posted on the latest HPA events!<h5>
-			<form class="container" action="https://formspree.io/tmdarneille@gmail.com" method="POST">
+			<form class="container" id="subscribe-form" method="POST">
 			  <div class="form-row">
 			    <div class="col-9">
 			      <input class="form-control" type="email" name="email" placeholder="email">
 			    </div>
+			    <!-- filters spam https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
+			    <input type="text" name="_gotcha" style="display:none" />
 			    <div class="col">
 			      <input class="form-control btn-secondary" type="submit" value="subscribe">
 			    </div>
@@ -155,5 +157,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+    	const contactform =  document.getElementById('contactform');
+    	contactform.setAttribute('action', '//formspree.io/' + 'tmdarneille' + '@' + 'gmail' + '.' + 'com');
+	</script>
   </body>
 </html>
